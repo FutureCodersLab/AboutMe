@@ -53,6 +53,20 @@ header {
     color: var(--yellow);
 }
 
+.button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #800020;
+    border-radius: 10px;
+    transition: 0.2s ease transform;
+    cursor: pointer;
+    color: white;
+}
+
+.button:hover {
+    transform: scale(0.9);
+}
+
 .countdown-section {
     display: flex;
     flex-direction: column;
@@ -85,10 +99,29 @@ section {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: column;
     padding: 20px;
     border-radius: 30px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: white;
+}
+
+.title-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+iframe {
+    margin: 20px;
 }
 
 .subtitle {
@@ -152,6 +185,8 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    gap: 10px;
     background-color: var(--navy);
     padding: 20px;
 }

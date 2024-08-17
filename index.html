@@ -35,25 +35,32 @@
             >
                 Instagram
             </a>
+            <div id="magic-button" class="button">Magic Button</div>
         </header>
 
         <div id="container">
             <section id="family">
-                <div>
+                <div class="title-container">
                     <span class="subtitle">Family</span>
+                    <span id="hide-family" class="button">Hide</span>
+                </div>
+                <div id="family-details" class="content-container">
                     <ul>
                         <li>Dad - Jose Ramon</li>
                         <li>Mom - Rosa Suyapa</li>
                         <li>Brothers - Jose Luis and Jose Ramon</li>
                         <li>Sister - Joanne</li>
                     </ul>
+                    <img src="./images/house.png" alt="" />
                 </div>
-                <img src="./images/house.png" alt="" />
             </section>
 
             <section id="favorites">
-                <div>
+                <div class="title-container">
                     <span class="subtitle">Favorites</span>
+                    <span id="hide-favorites" class="button">Hide</span>
+                </div>
+                <div id="favorites-details" class="content-container">
                     <div class="content" style="margin-top: 20px">
                         <span>
                             <span class="category">Movie:</span>
@@ -72,13 +79,25 @@
                             Basketball, Gym, Reading
                         </span>
                     </div>
+                    <img src="./images/music.png" alt="" />
                 </div>
-                <img src="./images/music.png" alt="" />
+                <iframe
+                    src="https://www.youtube.com/embed/125TkHvlxLg"
+                    frameborder="0"
+                    width="420"
+                    height="315"
+                ></iframe>
             </section>
 
             <section id="vacation">
-                <div>
+                <div class="title-container">
                     <span class="subtitle">Summer Vacation</span>
+                </div>
+                <div
+                    id="summer-vacation-details"
+                    class="content-container"
+                    style="flex-direction: column"
+                >
                     <div class="content" style="margin-top: 20px">
                         <div class="category-container">
                             <span class="category">
@@ -117,12 +136,17 @@
                             </span>
                         </div>
                     </div>
+                    <img src="./images/summer.png" alt="" />
                 </div>
-                <img src="./images/summer.png" alt="" />
             </section>
         </div>
 
         <footer>
+            <span
+                >You have clicked this button
+                <span id="click-count">0</span> times</span
+            >
+            <div id="click-me" class="button">Click Me!</div>
             <span>&copy;FutureCodersLab</span>
         </footer>
 
