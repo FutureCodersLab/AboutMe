@@ -51,6 +51,11 @@ header {
 #link {
     font-size: 20px;
     color: var(--yellow);
+    text-decoration: none;
+}
+
+#link:hover {
+    text-decoration: underline;
 }
 
 .button {
@@ -118,6 +123,7 @@ section {
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
+    width: 100%;
 }
 
 #favorites-details {
@@ -129,10 +135,15 @@ section {
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
+    width: 100%;
 }
 
 embed {
     margin: 20px;
+}
+
+#summer-vacation-details {
+    flex-direction: column;
 }
 
 .subtitle {
