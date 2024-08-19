@@ -58,20 +58,6 @@ header {
     text-decoration: underline;
 }
 
-.button {
-    margin: 10px;
-    padding: 10px 20px;
-    background-color: #800020;
-    border-radius: 10px;
-    transition: 0.2s ease transform;
-    cursor: pointer;
-    color: white;
-}
-
-.button:hover {
-    transform: scale(0.9);
-}
-
 .countdown-section {
     display: flex;
     flex-direction: column;
